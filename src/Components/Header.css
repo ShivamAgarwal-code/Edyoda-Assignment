@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left, .header-right {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header-left > div, .header-right > div{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header-right > div > button{
+    border: none;
+    width: 115px;
+    height: 35px;
+}
+.header-right > div:last-child{
+    margin-right: 100px;
+}
+.header-left > div > img{
+    margin-left: 35px;
+}
+.login-btn{
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.join-btn{
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 1vmax;
+}
+#courses, #programs{
+    border: none;
+    cursor: pointer;
+}
+

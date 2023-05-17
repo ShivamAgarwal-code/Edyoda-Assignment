@@ -1,0 +1,235 @@
+.home{
+    background-image: url("../Assets/Back\ Ground.png");
+    display: flex;
+    padding: 30px 0px 0px 75px;
+}
+.home-left{
+    width: 550px;
+    padding-right: 150px;
+    height: 700px;
+}
+.home-right{
+    width: 450px;
+    margin: 20px 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+}
+.home-heading{
+    font-weight: 200;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.home-heading > h1 > span{
+    color: #0096FF;
+}
+.home-list{
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+}
+.home-list > img{
+    width: 40px;
+}
+.home-list > p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+.home-list > p > span{
+color: #0096FF;
+}
+form{
+    width: 90%;
+    margin: auto;
+}
+.form-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #3C4852;
+}
+.form-upper > div{
+    top: 20px;
+    position: relative;
+    padding: 10px;
+}
+.form-upper > div > .blue{
+    border-radius: 100%;
+    width: 24px;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #0096FF;
+}
+.form-heading{
+    width: 450px;
+    margin: 25px 0px;
+    font-size: 20px;
+    color: #3C4852;
+}
+.expired{
+    width: 100%;
+    display: flex;
+    border: 2px solid #BEBEBE;
+    margin: 0px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #E7E7E7;
+    cursor: pointer;
+}
+.expired-p{
+    width: 100px;
+    font-size: 12px;
+    position: relative;
+    top: 28px;
+    margin-left: 45px;
+    background-color: #F77171;
+    color: #FFFFFF;
+}
+.expired > div > h5{
+    width: 190px;
+    margin-right: 90px;
+    color: #BEBEBE;
+}
+.expired-right{
+    font-size: 14px;
+    color: #BEBEBE;
+    top: 12px;
+    left: 30px;
+    position: relative;
+}
+div.expired{
+    cursor:not-allowed;
+}
+.recomend{
+    width: 100%;
+    display: flex;
+    border: 2px solid #47BA68;
+    margin: 0px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #D7EDDD;
+    cursor: pointer;
+}
+.recomend-p{
+    width: 100px;
+    font-size: 12px;
+    position: relative;
+    top: 28px;
+    margin-left: 45px;
+    background-color: #47BA68;
+    color: #FFFFFF;
+}
+.recomend > div > h5{
+    width: 190px;
+    margin-right: 90px;
+    color: #3C4852;
+}
+.recomend-right{
+    font-size: 14px;
+    color: #3C4852;
+    top: 12px;
+    left: 30px;
+    position: relative;
+}
+.formList-34{
+    width: 100%;
+    display: flex;
+    border: 2px solid #BEBEBE;
+    margin: 0px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.formList-34 > h5{
+    width: 190px;
+    margin-right: 90px;
+    color: #3C4852;
+}
+.formList-right{
+    font-size: 14px;
+    color: #3C4852;
+    top: 12px;
+    left: 30px;
+    position: relative;
+}
+.division{
+    width: 400px;
+    border: 1px solid #BEBEBE;
+    margin-top: 25px;
+}
+.subscription{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 125px;
+    color: #3C4852;
+}
+.limited-time{
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.limited-time > .limited-time-offer {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+    height: 45px;
+}
+.limited-time-offer > h4{
+    color: #DE4313;
+}
+.limited-time-offer > p{
+    color: #3C4852;
+}
+.validity{
+    display: flex;
+    justify-content: flex-start;
+    color: #DE4313;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+    left: 30px;
+    position: relative;
+    height: 40px;
+}
+.total{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 140px;
+    height: 50px;
+    color: #3C4852;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.cancel-btn{
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    border: 2px solid #F77171;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #F77171;
+}
+.procees-btn{
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    background: #47BA68;
+border-radius: 4px;
+color: #FFFFFF;
+border: none;
+}
+.razorpay-icon{
+    display: flex;
+    left: 15px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+}
